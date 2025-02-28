@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-web-server",
+  "version": "0.0.1",
+  "description": "Proyecto de Web Server para curso de NodeJS",
+  "license": "ISC",
+  "author": "Alfredo J Albornoz",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2"
+  }
+}
